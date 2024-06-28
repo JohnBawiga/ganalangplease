@@ -1,0 +1,64 @@
+{
+  "name": "the-weirdos-starter-code",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://github.com/JohnBawiga/ganalangplease.git",
+
+  "dependencies": {
+    "@fontsource-variable/kablammo": "^5.0.5",
+    "@fontsource/akaya-telivigala": "^5.0.13",
+    "@fontsource/cherry-cream-soda": "^5.0.12",
+    "@fontsource/sora": "^5.0.18",
+    "@fontsource/ubuntu": "^5.0.13",
+    "@testing-library/jest-dom": "^5.16.2",
+    "@testing-library/react": "^14.0.0",
+    "@testing-library/user-event": "^14.4.3",
+    "firebase": "^10.12.2",
+    "framer-motion": "^11.2.10",
+    "gsap": "^3.9.1",
+    "normalize.css": "^8.0.1",
+    "react": "^18.2.0",
+    "react-confetti": "^6.0.1",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.2.1",
+    "react-use": "^17.3.2",
+    "styled-components": "^5.3.3",
+    "swiper": "^9.4.1",
+    "typewriter-effect": "^2.21.0",
+    "web-vitals": "^3.3.2"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1",
+    "react-scripts": "^5.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "gh-pages": "^3.1.0"
+  }
+  
+}
